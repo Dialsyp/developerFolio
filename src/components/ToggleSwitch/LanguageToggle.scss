@@ -1,0 +1,94 @@
+@import "../../_globalColor";
+
+.language-switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+}
+
+.language-switch input {
+  transform: scale(0.5);
+}
+
+.language-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: $toggleSwitchSliderBG;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.language-slider::before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 28px;
+  left: 2px;
+  bottom: 2px;
+  background-color: $textColorDark;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+.language-switch input:checked + .language-slider {
+  background-color: $toggleCheck;
+}
+
+.language-switch input:focus + .language-slider {
+  box-shadow: 0 0 1px $toggleCheck;
+}
+
+.language-switch input:checked + .language-slider::before {
+  -webkit-transform: translateX(30px);
+  -ms-transform: translateX(30px);
+  transform: translateX(30px);
+}
+
+.language-emoji {
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  position: absolute;
+  transition: 0.4s;
+}
+
+.language-switch input:not(:checked) + .language-slider .language-emoji {
+  left: 8px;
+}
+
+.language-switch input:checked + .language-slider .language-emoji {
+  right: 8px;
+}
+
+/* Responsive design */
+@media all and (max-width: 786px) {
+  .language-switch {
+    width: 50px;
+    height: 26px;
+  }
+  
+  .language-slider::before {
+    height: 22px;
+    width: 24px;
+  }
+  
+  .language-switch input:checked + .language-slider::before {
+    transform: translateX(24px);
+  }
+  
+  .language-emoji {
+    font-size: 12px;
+  }
+} 

@@ -39,16 +39,16 @@ export default function Greeting() {
               <div id="resume" className="empty-div"></div>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />
-                {greeting.resumeLink && (
+                <Button text="Contactez-moi" href="#contact" />
+             
                   <a
-                    href={require("./resume.pdf")}
-                    download="Resume.pdf"
+                    href={require("./MonCV.pdf")}
+                    download="Dial Syphax CV.pdf"
                     className="download-link-button"
                   >
-                    <Button text="Download my resume" />
+                    <Button text="Télécharger mon CV" />
                   </a>
-                )}
+               
               </div>
             </div>
           </div>

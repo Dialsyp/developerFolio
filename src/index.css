@@ -1,20 +1,18 @@
 @font-face {
-  font-family: "Agustina Regular";
+  font-family: "Fira Code", monospace;
   font-style: normal;
   font-weight: normal;
-  src: local("Agustina Regular"),
-    url("./assets/fonts/Agustina.woff") format("woff");
+  
   font-display: swap;
 }
 @font-face {
-  font-family: "Montserrat";
+  font-family: "Fira Code", monospace;
   src: local("Montserrat"),
     url("./assets/fonts/Montserrat-Regular.ttf") format("woff");
   font-display: swap;
 }
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: "Fira Code", monospace;
 }
 html,
 body {
