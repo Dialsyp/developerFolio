@@ -21,13 +21,13 @@ const illustration = {
 
 const greeting = {
   username: "Syphax Dial",
-  title: "Bonjour à tous, je suis Syphax ",
+  title: "Bonjour à tous, je suis Syphax",
   subTitle: emoji(
-    "Développeur Full-Stack passionné par le DevOps et l’automatisation. J’intègre conteneurisation, CI/CD et infrastructure as code dans mes projets pour optimiser les processus de développement et de déploiement."
+    "Développeur Full-Stack avec une forte sensibilité DevOps, j’aime concevoir des solutions modernes où automatisation, conteneurisation et intégration continue sont au cœur des projets. J’ai à cœur de simplifier et fiabiliser les processus de développement et de déploiement, tout en restant curieux et ouvert aux nouvelles pratiques."
   ),
   // resumeLink:
-  //   "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+  //   "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Laisser vide pour masquer le bouton
+  displayGreeting: true // Mettre à false pour masquer cette section
 };
 
 // Social Media Links
