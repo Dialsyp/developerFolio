@@ -49,41 +49,59 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Ce que je sais faire",
-  subTitle: "FULL-STACK DEVELOPER avec un fort intérêt pour DevOps & Cloud",
+  subTitle: "Développeur Full-Stack passionné par le DevOps, l’automatisation et le Cloud",
+
+  // Compétences principales, adaptées de la section "À propos" et "Compétence" de ton CV
   skills: [
-    emoji("Mise en place de pipelines CI/CD (GitHub Actions, Jenkins)"),
-    emoji("Conteneurisation avec Docker, orchestration avec Kubernetes"),
-    emoji("Automatisation d'infrastructure avec Ansible et Terraform"),
-    emoji("Supervision avec Prometheus, Grafana, Alertmanager"),
-    emoji("Intégration d’authentification SSO (Azure AD)")
+    "Mise en place et gestion de pipelines CI/CD (GitHub Actions, Jenkins, SonarQube)",
+    "Conteneurisation et orchestration (Docker, Docker Compose, Docker Swarm, Kubernetes)",
+    "Automatisation d'infrastructure (Ansible, Terraform)",
+    "Supervision et monitoring (Prometheus, Grafana, Alertmanager)",
+    "Intégration d’authentification SSO (Azure AD)",
+    "Développement d’applications web en architecture microservices (Java, Spring Boot, Next.js, NestJS)",
+    "Gestion et administration de bases de données (MySQL, PostgreSQL, MongoDB)",
+    "Configuration de proxys et reverse-proxys (Nginx, Traefik, Apache2)",
+    "Utilisation des systèmes Linux (Ubuntu) et Windows",
+    "Développement low-code avec Power Platform et solutions Microsoft 365",
+    "Méthodologies Agiles (Scrum, Kanban)"
   ],
 
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
+  // Compétences logicielles et techniques, adaptées et enrichies selon ton CV
   softwareSkills: [
-    { skillName: "Java", fontAwesomeClassname: "fab fa-java" },
-    { skillName: "Spring Boot", fontAwesomeClassname: "fas fa-leaf" },
-    { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
-    { skillName: "React.js", fontAwesomeClassname: "fab fa-react" },
-    { skillName: "Next.js", fontAwesomeClassname: "fab fa-react" },
-    { skillName: "NestJS", fontAwesomeClassname: "fas fa-code" },
-    { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
-    { skillName: "Kubernetes", fontAwesomeClassname: "fas fa-project-diagram" },
     { skillName: "Ansible", fontAwesomeClassname: "fas fa-tools" },
-    { skillName: "Terraform", fontAwesomeClassname: "fas fa-cogs" },
-    { skillName: "Git", fontAwesomeClassname: "fab fa-git" },
-    { skillName: "MySQL", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "MongoDB", fontAwesomeClassname: "fas fa-leaf" },
+    { skillName: "Apache2"},
     { skillName: "Azure", fontAwesomeClassname: "fab fa-microsoft" },
-    { skillName: "Power Platform", fontAwesomeClassname: "fas fa-plug" },
+    { skillName: "Caddy", fontAwesomeClassname: "fas fa-server" },
+    { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
+    { skillName: "Git", fontAwesomeClassname: "fab fa-git" },
+    { skillName: "GitHub Actions", fontAwesomeClassname: "fab fa-github" },
+    { skillName: "Grafana", fontAwesomeClassname: "fas fa-chart-line" },
+    { skillName: "Java", fontAwesomeClassname: "fab fa-java" },
+    { skillName: "JavaScript" },
+    { skillName: "Jenkins", fontAwesomeClassname: "fas fa-cogs" },
+    { skillName: "Kubernetes", fontAwesomeClassname: "fas fa-project-diagram" },
     { skillName: "Linux (Ubuntu)", fontAwesomeClassname: "fab fa-linux" },
+    { skillName: "MongoDB", fontAwesomeClassname: "fas fa-leaf" },
+    { skillName: "MySQL", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "NestJS", fontAwesomeClassname: "fas fa-code" },
+    { skillName: "Next.js", fontAwesomeClassname: "fab fa-react" },
     { skillName: "Nginx", fontAwesomeClassname: "fas fa-server" },
+    { skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "Power BI" },
+    { skillName: "Prometheus", fontAwesomeClassname: "fas fa-chart-line" },
+    { skillName: "React.js", fontAwesomeClassname: "fab fa-react" },
+    { skillName: "SonarQube" },
+    { skillName: "Spring Boot", fontAwesomeClassname: "fas fa-leaf" },
+    { skillName: "Terraform", fontAwesomeClassname: "fas fa-cogs" },
     { skillName: "Traefik", fontAwesomeClassname: "fas fa-random" },
+    { skillName: "TypeScript" },
+    { skillName: "Windows" }
+
   ],
-  display: true // Set false to hide this section, defaults to true
+
+  display: true // Mettre à false pour masquer la section
 };
+
 
 // Education Section
 
@@ -160,19 +178,26 @@ const workExperiences = {
   display: true,
   experience: [
     {
-      role: "Assistant Concepteur Développeur (alternance)",
+      role: "Développeur Full-Stack / DevOps",
       company: "Maisons & Cités",
       companylogo: require("./assets/images/m&C.jfif"),
       date: "Nov 2023 – Oct 2025",
-      desc: "Développement de plusieurs solutions métiers et DevOps.",
+      desc: "Participation à la conception, au développement et à l’amélioration de solutions numériques, en intégrant des pratiques DevOps et des approches Full Stack.",
       descBullets: [
-        "Microservices React.js + Spring Boot, SSO Azure AD",
-        "Conteneurisation Docker + orchestration Traefik",
-        "Automatisation de reporting avec Power Automate"
+        "Interventions sur l’ensemble de la chaîne applicative, du front-end au back-end",
+        "Mise en œuvre de processus d’automatisation et d’intégration continue",
+        "Contribution à l’optimisation et à la sécurisation des environnements techniques",
+        "Participation à l’évolution des architectures applicatives",
+        "Collaboration avec différentes équipes pour garantir la qualité des livrables",
+        "Veille et adaptation aux bonnes pratiques du développement et de l’automatisation",
+        "Support technique et accompagnement dans la résolution de problématiques variées",
+        "Participation à la gestion des cycles de vie des applications"
       ]
     }
   ]
 };
+
+
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -185,13 +210,13 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projets",
+  subtitle: "Quelques projets que j'ai réalisés",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "Application de gestion de santé pour les entreprises",
       footerLink: [
         {
           name: "Visit Website",
@@ -212,7 +237,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
