@@ -29,3 +29,21 @@
 .software-skill-inline > i:hover ~ p {
   color: $skillsColor;
 }
+
+.custom-kubernetes-icon {
+  color: $subTitle;
+  padding-left: 0;
+  list-style: none;
+  font-size: 3rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: center;
+
+  &:hover {
+    color: $skillsColor;
+  }
+  &:hover ~ p {
+    color: $skillsColor;
+  }
+
+}

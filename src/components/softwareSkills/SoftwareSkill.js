@@ -2,7 +2,7 @@ import React from "react";
 import "./SoftwareSkill.scss";
 import {skillsSection} from "../../portfolio";
 import { SiKubernetes } from "react-icons/si";
-
+import { SiTerraform } from "react-icons/si";
 export default function SoftwareSkill() {
   return (
     <div>
@@ -16,9 +16,10 @@ export default function SoftwareSkill() {
                 className="software-skill-inline"
                 name={skills.skillName}
               >
-                {skills.fontAwesomeClassname === "Kubernetes" ? (
-                  
-                  <SiKubernetes />
+                {skills.skillName === "Kubernetes" ? (
+                  <SiKubernetes className="custom-kubernetes-icon" />
+                ) : skills.skillName === "Terraform" ? (
+                  <SiTerraform className="custom-kubernetes-icon" />
                 ) : (
                   <i className={skills.fontAwesomeClassname}></i>
                 )}

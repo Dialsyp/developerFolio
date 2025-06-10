@@ -48,7 +48,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "Ce que je fais",
+  title: "Ce que je sais faire",
   subTitle: "FULL-STACK DEVELOPER avec un fort intérêt pour DevOps & Cloud",
   skills: [
     emoji("Mise en place de pipelines CI/CD (GitHub Actions, Jenkins)"),
@@ -61,19 +61,27 @@ const skillsSection = {
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-softwareSkills: [
-  { skillName: "Java", fontAwesomeClassname: "fab fa-java" },
-  { skillName: "Spring Boot", fontAwesomeClassname: "fas fa-leaf" },
-  { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
-  { skillName: "React.js", fontAwesomeClassname: "fab fa-react" },
-  { skillName: "NestJS", fontAwesomeClassname: "fas fa-code" },
-  { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
-  { skillName: "Kubernetes", fontAwesomeClassname: "fas fa-project-diagram" },
-  { skillName: "Git", fontAwesomeClassname: "fab fa-git" },
-  { skillName: "MySQL", fontAwesomeClassname: "fas fa-database" },
-  { skillName: "MongoDB", fontAwesomeClassname: "fas fa-leaf" },
-  { skillName: "Azure", fontAwesomeClassname: "fab fa-microsoft" }
-],
+  softwareSkills: [
+    { skillName: "Java", fontAwesomeClassname: "fab fa-java" },
+    { skillName: "Spring Boot", fontAwesomeClassname: "fas fa-leaf" },
+    { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
+    { skillName: "React.js", fontAwesomeClassname: "fab fa-react" },
+    { skillName: "Next.js", fontAwesomeClassname: "fab fa-react" },
+    { skillName: "NestJS", fontAwesomeClassname: "fas fa-code" },
+    { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
+    { skillName: "Kubernetes", fontAwesomeClassname: "fas fa-project-diagram" },
+    { skillName: "Ansible", fontAwesomeClassname: "fas fa-tools" },
+    { skillName: "Terraform", fontAwesomeClassname: "fas fa-cogs" },
+    { skillName: "Git", fontAwesomeClassname: "fab fa-git" },
+    { skillName: "MySQL", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "MongoDB", fontAwesomeClassname: "fas fa-leaf" },
+    { skillName: "Azure", fontAwesomeClassname: "fab fa-microsoft" },
+    { skillName: "Power Platform", fontAwesomeClassname: "fas fa-plug" },
+    { skillName: "Linux (Ubuntu)", fontAwesomeClassname: "fab fa-linux" },
+    { skillName: "Nginx", fontAwesomeClassname: "fas fa-server" },
+    { skillName: "Traefik", fontAwesomeClassname: "fas fa-random" },
+  ],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -84,7 +92,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "CESI École d’Ingénieurs",
-      logo: require("./assets/images/Logo_cesi_2022.png"), 
+      logo: require("./assets/images/Logo_cesi_2022.png"),
       subHeader:
         "Manager en Architecture et Applications Logicielles des SI (alternance)",
       duration: "Nov 2023 - Oct 2025",
@@ -253,7 +261,7 @@ const blogSection = {
     "",
   // displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
-    
+
   ],
   display: false // Set false to hide this section, defaults to true
 };
