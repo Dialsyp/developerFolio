@@ -84,7 +84,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "CESI École d’Ingénieurs",
-      logo: require("./assets/images/Cesi.jfif"), 
+      logo: require("./assets/images/R.jfif"), 
       subHeader:
         "Manager en Architecture et Applications Logicielles des SI (alternance)",
       duration: "Nov 2023 - Oct 2025",
