@@ -23,14 +23,20 @@ import { SiCaddy } from "react-icons/si";
 import { IoLogoWindows } from "react-icons/io";
 import { SiSonar } from "react-icons/si";
 import { SiApache } from "react-icons/si";
-
-export default function SoftwareSkill() {
+import { SiVirtualbox } from "react-icons/si";
+import { SiVagrant } from "react-icons/si";
+import { SiExpo } from "react-icons/si";
+import { FaGolang } from "react-icons/fa6";
+import { SiCypress } from "react-icons/si";
+import { SiPostman } from "react-icons/si";
+export default function DevOpsSkill() {
   return (
     <div>
       <div className="software-skills-main-div">
+        <p>Mes compétences en DevOps :</p>
         <ul className="dev-icons">
-          {skillsSection.softwareSkills.map((skills, i) => {
-            console.log(skills.fontAwesomeClassname);
+
+          {skillsSection.devOpsSkills.map((skills, i) => {
             return (
               <li
                 key={i}
@@ -93,6 +99,19 @@ export default function SoftwareSkill() {
                     <IoLogoWindows className="custom-kubernetes-icon" />
                   ) : skills.skillName === "Apache2" ? (
                     <SiApache className="custom-kubernetes-icon" />
+                  ) : skills.skillName === "VirtualBox" ? (
+                    
+                    <SiVirtualbox className="custom-kubernetes-icon" />
+                  ) : skills.skillName === "Vagrant" ? (
+                    <SiVagrant className="custom-kubernetes-icon" />
+                  ) : skills.skillName==="Expo" ? (
+                    <SiExpo className="custom-kubernetes-icon" />
+                  ) : skills.skillName==="Go" ? (
+                    <FaGolang className="custom-kubernetes-icon" />
+                  ) : skills.skillName==="Cypress" ? (
+                    <SiCypress className="custom-kubernetes-icon" />
+                  ) : skills.skillName==="Postman" ? (
+                    <SiPostman className="custom-kubernetes-icon" />
                   ) : (
                     <i className={skills.fontAwesomeClassname}></i>
                   )}

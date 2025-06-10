@@ -67,7 +67,7 @@ const skillsSection = {
   ],
 
   // Compétences logicielles et techniques, adaptées et enrichies selon ton CV
-  softwareSkills: [
+  devOpsSkills: [
     { skillName: "Ansible", fontAwesomeClassname: "fas fa-tools" },
     { skillName: "Apache2"},
     { skillName: "Azure", fontAwesomeClassname: "fab fa-microsoft" },
@@ -76,27 +76,40 @@ const skillsSection = {
     { skillName: "Git", fontAwesomeClassname: "fab fa-git" },
     { skillName: "GitHub Actions", fontAwesomeClassname: "fab fa-github" },
     { skillName: "Grafana", fontAwesomeClassname: "fas fa-chart-line" },
-    { skillName: "Java", fontAwesomeClassname: "fab fa-java" },
-    { skillName: "JavaScript" },
+    
+  
     { skillName: "Jenkins", fontAwesomeClassname: "fas fa-cogs" },
     { skillName: "Kubernetes", fontAwesomeClassname: "fas fa-project-diagram" },
-    { skillName: "Linux (Ubuntu)", fontAwesomeClassname: "fab fa-linux" },
-    { skillName: "MongoDB", fontAwesomeClassname: "fas fa-leaf" },
-    { skillName: "MySQL", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "NestJS", fontAwesomeClassname: "fas fa-code" },
-    { skillName: "Next.js", fontAwesomeClassname: "fab fa-react" },
     { skillName: "Nginx", fontAwesomeClassname: "fas fa-server" },
-    { skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "Power BI" },
     { skillName: "Prometheus", fontAwesomeClassname: "fas fa-chart-line" },
-    { skillName: "React.js", fontAwesomeClassname: "fab fa-react" },
     { skillName: "SonarQube" },
-    { skillName: "Spring Boot", fontAwesomeClassname: "fas fa-leaf" },
     { skillName: "Terraform", fontAwesomeClassname: "fas fa-cogs" },
     { skillName: "Traefik", fontAwesomeClassname: "fas fa-random" },
-    { skillName: "TypeScript" },
-    { skillName: "Windows" }
+    { skillName: "Cypress" },
+    { skillName: "Postman" },
+    { skillName: "VirtualBox"},
+    { skillName: "Vagrant"},
 
+
+  ],
+
+  devSkills : [
+    { skillName: "Java", fontAwesomeClassname: "fab fa-java" },
+    { skillName: "JavaScript" },
+    { skillName: "TypeScript" },
+    { skillName: "Go" },
+    { skillName: "React.js", fontAwesomeClassname: "fab fa-react" },
+    { skillName: "Next.js", fontAwesomeClassname: "fab fa-react" },
+    { skillName: "NestJS", fontAwesomeClassname: "fas fa-code" },
+    { skillName: "Spring Boot", fontAwesomeClassname: "fas fa-leaf" },
+    { skillName: "Expo" },
+    { skillName: "Power BI" },
+    { skillName: "MySQL", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "MongoDB", fontAwesomeClassname: "fas fa-leaf" },
+    { skillName: "Windows" },
+
+    { skillName: ".NET" }
   ],
 
   display: true // Mettre à false pour masquer la section

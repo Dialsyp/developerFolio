@@ -1,6 +1,7 @@
 import React, {useContext} from "react";
 import "./Skills.scss";
-import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
+import DevOpsSkill from "../../components/softwareSkills/DevOpsSkill";
+import DevSkill from "../../components/softwareSkills/DevSkill";
 import {illustration, skillsSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import codingPerson from "../../assets/lottie/codingPerson";
@@ -43,8 +44,9 @@ export default function Skills() {
             >
               {skillsSection.subTitle}
             </p>
-            <SoftwareSkill />
-            <div>
+            <DevOpsSkill />
+            <DevSkill />
+            {/* <div>
               {skillsSection.skills.map((skills, i) => {
                 return (
                   <p
@@ -59,7 +61,7 @@ export default function Skills() {
                   </p>
                 );
               })}
-            </div>
+            </div> */}
           </div>
         </Fade>
       </div>
