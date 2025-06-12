@@ -38,7 +38,7 @@ export default function Greeting() {
               </p>
               <div id="resume" className="empty-div"></div>
               <SocialMedia />
-              <div className="button-greeting-div">
+              {/* <div className="button-greeting-div">
                 <Button text="Contactez-moi" href="#contact" />
              
                   <a
@@ -49,7 +49,7 @@ export default function Greeting() {
                     <Button text="Télécharger mon CV" />
                   </a>
                
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="greeting-image-div">
