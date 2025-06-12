@@ -38,18 +38,18 @@ export default function Greeting() {
               </p>
               <div id="resume" className="empty-div"></div>
               <SocialMedia />
-              {/* <div className="button-greeting-div">
+              <div className="button-greeting-div">
                 <Button text="Contactez-moi" href="#contact" />
              
-                  <a
+                  {/* <a
                     href={require("./MonCV.pdf")}
                     download="Dial Syphax CV.pdf"
                     className="download-link-button"
                   >
                     <Button text="Télécharger mon CV" />
-                  </a>
+                  </a> */}
                
-              </div> */}
+              </div>
             </div>
           </div>
           <div className="greeting-image-div">
